@@ -31,3 +31,9 @@ func (t *testSuite) TestFile() {
 		t.Equal(validFileName, res.FileName())
 	}
 }
+
+func (t *testSuite) TestIncorrectFileExtension() {
+	_, err := NewFile("test.bak")
+	t.Error(err)
+	t.ErrorIs(err, errInvalidImageFileExtension)
+}
