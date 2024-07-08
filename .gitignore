@@ -1,4 +1,4 @@
 cache/
 !cache/.gitkeep
 *.webp
-
+db/database.sqlite

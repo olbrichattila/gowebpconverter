@@ -3,7 +3,7 @@ package argparser
 import (
 	"errors"
 	"os"
-	request "webpcdn/internal/core/domain"
+	request "webpcdn/internal/core/domain/request"
 	"webpcdn/internal/ports"
 )
 

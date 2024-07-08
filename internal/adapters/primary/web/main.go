@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 	"strings"
-	request "webpcdn/internal/core/domain"
+	request "webpcdn/internal/core/domain/request"
 	"webpcdn/internal/ports"
 )
 
